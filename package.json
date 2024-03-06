@@ -1,0 +1,17 @@
+{
+  "name": "calendario-semine",
+  "version": "1.0.0",
+  "description": "Calendario interattivo delle semine nell'orto",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "calendario",
+    "semine",
+    "orto"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@picocss/pico": "^2.0.3"
+  }
+}

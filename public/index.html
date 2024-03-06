@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Distanze, profondità, luna, sole per semine e trapianti dei principali ortaggi. I dati sono indicativi per la parte centrale dell'Italia." />
+    <meta name="keywords" content="orto,semine,calendario semine,calendario orto,fasi lunari" />
+    <link rel="stylesheet" href="css/pico.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+    <title>Calendario Semine Orto</title>
+</head>
+
+<body>
+    <main class="container">
+        <article>
+            <hgroup>
+                <h2>Calendario semine dell'orto</h2>
+                <p>Distanze, profondità, luna, sole per semine e trapianti dei principali ortaggi. I dati sono indicativi per la parte centrale dell'Italia.</p>
+            </hgroup>
+            <hr>
+            <fieldset class="grid">
+                <input 
+                    type="search"
+                    name="search"
+                    placeholder="Cerca ortaggio"
+                    aria-label="Cerca ortaggio"
+                    />
+                <select name="depth" aria-label="Profondità">
+                    <option selected value="">Profondità</option>
+                    <option value="0.5">>= 0.5</option>
+                    <option value="1">>= 1</option>
+                    <option value="2">>= 2</option>
+                    <option value="3">>= 3</option>
+                </select>
+                <select name="moon" aria-label="Luna">
+                    <option selected value="">Luna</option>
+                    <option value="1">Luna crescente</option>
+                    <option value="2">Luna calante</option>
+                </select>
+                <select name="sun" aria-label="Sole">
+                    <option selected value="">Sole</option>
+                    <option value="1">Poco soleggiato</option>
+                    <option value="2">Soleggiato</option>
+                    <option value="3">Molto soleggiato</option>
+                </select>
+            </fieldset>
+            <div class="overflow-auto">
+                <tabella-semine></tabella-semine>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <a href="" class="contrast"><small>source</small></a>
+    </footer>
+</body>
+
+</html>
